@@ -1,5 +1,5 @@
 # Crud-app
-aplikasi ini adalah aplikasi.....
+aplikasi ini adalah aplikasi KMTETI management system. aplikasi ini berisi tabel anggota pengurus harian KMTETI. pada aplikasi ini terdapat beberapa fitur seperti creat, update, delete, search, dan sort. kami juga akan menambahkan fitur dark mode. aplikasi ini berbasi expressjs, mongodb, dan tailwindcss
 <br>
 <br>
 tim kami terdiri dari <br>
@@ -8,4 +8,3 @@ tim kami terdiri dari <br>
 3. Elza Natali Wijaya (20/460542/TK/51131) <br>
 4. Resiyanda Wafa R A (20/460563/TK/51152) <br>
 5. Annisa Raihana C P (20/460540/TK/51129) <br>
-
