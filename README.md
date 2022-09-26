@@ -1,5 +1,5 @@
 # Crud-app
-aplikasi ini adalah aplikasi KMTETI management system. aplikasi ini berisi tabel anggota pengurus harian KMTETI. pada aplikasi ini terdapat beberapa fitur seperti creat, update, delete, search, dan sort. kami juga akan menambahkan fitur dark mode. aplikasi ini berbasi expressjs, mongodb, dan tailwindcss
+Aplikasi yang kami buat adalah suatu aplikasi pembuat blog berbasis CRUD yang memudahkan pengguna untuk membuat blog secara instan dan cantik. 
 <br>
 <br>
 tim kami terdiri dari <br>
