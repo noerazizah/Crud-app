@@ -9,24 +9,14 @@ const categoryRoute = require("./routes/categories");
 const multer = require("multer");
 const path = require('path');
 
-mongoose.connect(process.env.MONGO_URL, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true,
-})
-    .then(console.log("Connected to MongoDB"))
-    .catch((err) => console.log(err));
+require('dotenv').config({ path: '.env' });
 
-dotenv.config();
 app.use(express.json());
 app.use("/images", express.static(path.join(__dirname, "/images")));
 
 mongoose
     .connect(process.env.MONGO_URL, {
         useNewUrlParser: true,
-        useUnifiedTopology: true,
-        useCreateIndex: true,
-        useFindAndModify: true
     })
     .then(console.log("Connected to MongoDB"))
     .catch((err) => console.log(err));
