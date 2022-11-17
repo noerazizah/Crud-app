@@ -1,0 +1,92 @@
+.singlePost {
+    flex: 9;
+}
+
+.singlePostWrapper {
+    padding: 20px;
+    padding-right: 0;
+}
+
+.singlePostImg {
+    position: absolute;
+    width: 424.29px;
+    height: 170.75px;
+    left: 75.76px;
+    top: 366.36px;
+
+    background: url(6221846-1.jpeg);
+    border-radius: 20px;
+}
+
+.singlePostTitle {
+    position: absolute;
+    width: 285.17px;
+    height: 44.89px;
+    left: 145.3px;
+    top: 546.79px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.singlePostEdit {
+    float: right;
+    font-size: 16px;
+}
+
+.singlePostIcon {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.singlePostIcon:first-child {
+    color: teal;
+}
+.singlePostIcon:last-child {
+    color: tomato;
+}
+
+.singlePostInfo {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #be9656;
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+}
+
+.singlePostAuthor{
+    margin-left: 5px;
+}
+
+.singlePostDesc {
+    position: absolute;
+    width: 333.57px;
+    height: 283.41px;
+    left: 116.25px;
+    top: 632.17px;
+
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+.singlePostDesc::first-letter {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}

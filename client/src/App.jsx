@@ -1,10 +1,10 @@
 import React from 'react';
-import Header from './components/header/Header';
+import Singlepost from './components/single-post/Singlepost';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Singlepost/>
     </div>
   );
 }
