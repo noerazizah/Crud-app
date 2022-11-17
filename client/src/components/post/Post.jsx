@@ -4,7 +4,7 @@ import Image from "../../assets/6221846 1.png";
 import image from "../../assets/edit (1).png";
 import Img from "../../assets/delete.png";
 
-export default function Post({img}) {
+export default function Post() {
   return (
     <body>
     <div class>
