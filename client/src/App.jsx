@@ -3,6 +3,7 @@ import React from 'react'
 import NavBar from './components/navbar/NavBar';
 /*import NavBar from './components/navbar/NavBar';*/
 import SinglePost from './components/single-post/Singlepost';
+import Settings from './components/Settings/Settings';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
         
       </div>
       <div className="App">
-        <SinglePost/>
+        <Settings/>
       </div>
     </header>
     
