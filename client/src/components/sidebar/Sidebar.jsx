@@ -6,9 +6,8 @@ import Image from "../../assets/profpic.jpeg";
 
 export default function Sidebar() {
   return (
-    <div class="my-12">
-    <div className="sidebar fixed flex flex-col min-h-full p-[10px] w-[338px] h-[550px] mr-11 my-auto overflow-y-auto overflow-x-hidden right-0 bg-biru-abu rounded-3xl">
-      <div className="sidebarItem flex flex-col items-center">
+    <div className="absolute right-0 place-items-end mt-11 lex flex-col min-h-full p-[10px] w-[338px] h-80 mr-11 overflow-y-auto overflow-x-hidden bg-biru-abu rounded-3xl">
+      <div className="flex flex-col items-center">
         <span className="sidebarTitle m-5  left-[1154px] top-[200px] text-center font-playfair font-normal text-judul2 text-white">ABOUT ME</span>
         <img
           src={Image}
@@ -19,7 +18,6 @@ export default function Sidebar() {
           amet ex esse.Sunt eu ut nostrud id quis proident.
         </p>
       </div>
-    </div>
     </div>
   );
 }
