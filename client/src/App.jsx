@@ -1,19 +1,12 @@
-<<<<<<< HEAD
-import React from 'react';
-<<<<<<< HEAD
-import Sidebar from './components/Sidebar';
-=======
-import Header from './components/header/Header';
->>>>>>> ilham/main
-=======
-
-import Header from "./components/header/Header";
-import NavBar from "./components/navbar/NavBar";
->>>>>>> ilham/main
+import React from "react";
+// import Header from "./components/header/Header";
+// import NavBar from "./components/navbar/NavBar";
+import Sidebar from "./components/sidebar/Sidebar";
 
 function App() {
   return (
-    <><NavBar /><Header /></>
+    // <><NavBar /><Header /></>
+    <Sidebar/>
   );
 }
 
