@@ -1,0 +1,89 @@
+.sidebar {
+    position: fixed;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 338px;
+    height: 94%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    right: 0px;
+    background: radial-gradient(129.05% 389.21% at -8.43% -6.36%, rgba(196, 196, 196, 0.25) 0%, rgba(255, 247, 247, 0) 100%);
+    filter: drop-shadow(30px 30px 60px rgba(255, 255, 255, 0.04));
+    backdrop-filter: blur(13.5px);
+    border-radius: 20px;
+    
+  }
+  
+  .sidebarItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sidebarTitle {
+    margin: 20px;
+    width: 148px;
+    height: 40px;
+    left: 1154px;
+    top: 200px;
+    text-align: center;
+    font-family: 'Playfair Display SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 21px;
+    color: #222222;
+  }
+  
+  .sidebarItem > img {
+    object-fit: cover;
+    width: 265px;
+    height: 265px;
+    left: 1085px;
+    top: 234px;
+    margin-top: 0px;
+    border-radius: 59px;
+    
+  }
+  
+  .sidebarItem > p {
+    padding: 25px;
+    text-align: center;
+    /* width: 289px;
+    height: 153px;
+    left: 1095px;
+    top: 524px; */
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  
+  .sidebarList {
+    list-style-type: none;
+    margin-bottom: 30px;
+  }
+  
+  .sidebarListItem {
+    display: inline-block;
+    width: 50%;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  
+  .sidebarSocial {
+    margin-top: 15px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sidebarIcon {
+    font-size: 16px;
+    margin-left: 10px;
+  }
