@@ -16,6 +16,10 @@ module.exports = {
       fontFamily: {
         poppins: "'Poppins', sans-serif",
         playfair: "'Playfair Display', serif;"
+      },
+      fontSize: {
+        'judul2': ['30px','34px'],
+        'teks1': ['16px','20px']
       }
     },
   },
