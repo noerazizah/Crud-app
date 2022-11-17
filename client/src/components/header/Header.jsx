@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import Lookist from "../../assets/lookist.png"
 
 export default function Header() {
