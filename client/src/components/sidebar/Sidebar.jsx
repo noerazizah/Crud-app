@@ -1,7 +1,7 @@
 import React from 'react';
 // import { Link } from "react-router-dom";
 // import "./Sidebar.css";
-import Image from "../../Image/download.jpeg";
+import Image from "../../assets/profpic.jpeg";
 
 
 export default function Sidebar() {
