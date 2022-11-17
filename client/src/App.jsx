@@ -1,19 +1,21 @@
-<<<<<<< HEAD
-import React from 'react';
-import Singlepost from './components/single-post/Singlepost';
+import React from 'react'
+import NavBar from './components/navbar/NavBar';
+/*import NavBar from './components/navbar/NavBar';*/
+import SinglePost from './components/single-post/Singlepost';
 
 function App() {
   return (
-    <div className="App">
-      <Singlepost/>
-    </div>
-=======
-import NavBar from "./components/navbar/NavBar";
+    <header>
+      <div className="App">
+        <NavBar/>
+        
+      </div>
+      <div className="App">
+        <SinglePost/>
+      </div>
+    </header>
+    
 
-function App() {
-  return (
-    <NavBar />
->>>>>>> 169c8d17ace1d44a3332204bbe3fc07eb53c0eb3
   );
 }
 
