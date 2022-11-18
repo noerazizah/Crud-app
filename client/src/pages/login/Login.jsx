@@ -1,7 +1,28 @@
 import React from "react";
 import Lookist from "../../assets/lookist.png";
+import axios from "axios";
+import { Link } from "react-router-dom";
+import { Context } from "../../context/Context";
 
 export default function Login() {
+  // const userRef = useRef();
+  // const passwordRef = useRef();
+  // const { dispatch, isFetching } = useContext(Context);
+
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
+  //   dispatch({ type: "LOGIN_START" });
+  //   try {
+  //     const res = await axios.post("/auth/login", {
+  //       username: userRef.current.value,
+  //       password: passwordRef.current.value,
+  //     });
+  //     dispatch({ type: "LOGIN_SUCCESS", payload: res.data });
+  //   } catch (err) {
+  //     dispatch({ type: "LOGIN_FAILURE" });
+  //   }
+  // };
+  
   return (
     <div className="bg-l-pattern h-screen w-screen relative">
     <div className="bg-white bg-opacity-30 rounded-xl flex items-center justify-center space-y-5 mx-auto h-[475px] w-[475px] absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4"> 

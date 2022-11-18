@@ -582,3 +582,63 @@ code {
   font-size: 30px;
   font-weight: 600;
 }
+=======
+
+@layer components {
+  .writeIcon {
+  width: 25px;
+  height: 25px;
+  font-size: 20px;
+  margin-top: 30px;
+  border: 1px solid;
+  border-radius: 50%;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.writeInput {
+  font-size: 30px;
+  border: none;
+  padding: 20px;
+  width: 70vw;
+  color: #ffffff;
+}
+
+.writeInput::placeholder {
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.writeInput:focus {
+  outline-style: none;
+}
+
+.writeText {
+  width: 70vw;
+  height: 100vh;
+  font-family: inherit;
+  font-size: 20px;
+}
+
+.writeSubmit {
+  position: absolute;
+  top: 20px;
+  right: 150px;
+  color: white;
+  background-color: teal;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+
+}
+
+
