@@ -6,13 +6,21 @@ import Post from "./components/post/Post";
 import Home from "./pages/home/Home";
 import Single from "./pages/single/Single";
 import Write from "./pages/write/Write";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <NavBar />
-      <Write />
-    </>
+    <Router>
+      <Switch>
+        <NavBar />
+        <Write />
+      </Switch>
+    </Router>
   );
 }
 
