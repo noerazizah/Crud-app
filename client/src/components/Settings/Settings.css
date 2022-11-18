@@ -20,13 +20,13 @@
 
 .changeborder{
     position: absolute;
-width: 108px;
-height: 107px;
-left: 248px;
-top: 254px;
+    width: 108px;
+    height: 107px;
+    left: 300px;
+    top: 254px;
 
-background: #E2E2E2;
-border-radius: 30px;
+    background: #E2E2E2;
+    border-radius: 30px;
 }
 .imgset{
     position: absolute;
@@ -221,7 +221,7 @@ border-radius: 30px;
     width: 258px;
     height: 39px;
     left: 44px;
-    top: 927px;
+    top: 830px;
 
     font-family: 'Poppins';
     font-style: normal;
