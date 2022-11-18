@@ -10,7 +10,7 @@ export default function Settings() {
             <div class="settingtitle">
                 Settings
             </div>
-            <div class="editbutton">
+            <button class="editbutton">
                 <div class="border">
                 <div class="changetitle">
                         Change
@@ -20,8 +20,8 @@ export default function Settings() {
                     alt="pencil logo"
                 />
                 </div>
-            </div>
-            <div class="changeborder">
+            </button>
+            <button class="changeborder">
                 <img class="imgset"
                 src={people}
                 alt="prof icon"
@@ -30,26 +30,39 @@ export default function Settings() {
                 src={pencil}
                 alt=""
                 />
-                <div class="changetext">
+                <button class="changetext" type="submit">
                     Change Profile picture
-                </div>
-            </div>
-            <div class="nameborder">
+                </button>
+            </button>
+            <form class="nameborder">
+                
                 <div class="nametitle">
                     Username
                 </div>
                 <div class="thename">
-                    Fanny Tifanny
+                    <input id="fileInput" type="file" style={{ display: "none" }} />
+                    <input
+                            className="writeInput bg-biru-abu"
+                            placeholder="Your Name"
+                            type="text"
+                            autoFocus={true}
+                        />
                 </div>
                 <div class="line">
                 </div>
-            </div>
+            </form>
             <div class="emailborder">
                 <div class="emailtitle">
                     Email
                 </div>
                 <div class="emailname">
-                    youremail@mail.com
+                    <input id="fileInput" type="file" style={{ display: "none" }} />
+                    <input
+                        className="writeInput bg-biru-abu"
+                        placeholder="youremail@mail.com"
+                        type="text"
+                        autoFocus={true}
+                    />
                 </div>
                 <div class="line2"></div>
             </div>
@@ -58,13 +71,19 @@ export default function Settings() {
                     Password
                 </div>
                 <div class="passwordname">
-                    ********
+                <input id="fileInput" type="file" style={{ display: "none" }} />
+                    <input
+                        className="writeInput bg-biru-abu"
+                        placeholder="**********"
+                        type="text"
+                        autoFocus={true}
+                    />
                 </div>
                 <div class="line3"></div>
             </div>
-            <div class="deleteacc">
+            <button class="deleteacc" type="submit">
                 Delete Account
-            </div>
+            </button>
         </div>
 );
 }
