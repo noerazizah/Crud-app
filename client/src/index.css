@@ -22,6 +22,7 @@ code {
   width: 25px;
   height: 25px;
   font-size: 20px;
+  margin-top: 30px;
   border: 1px solid;
   border-radius: 50%;
   color: #ffffff;
@@ -58,7 +59,7 @@ code {
 .writeSubmit {
   position: absolute;
   top: 20px;
-  right: 50px;
+  right: 150px;
   color: white;
   background-color: teal;
   padding: 10px;
@@ -69,5 +70,6 @@ code {
   display: flex;
   align-items: center;
 }
+
 
 }

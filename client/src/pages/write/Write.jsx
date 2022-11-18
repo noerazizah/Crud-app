@@ -59,10 +59,11 @@ export default function Write() {
                         autoFocus={true}
                     />
                 </div>
-            </form>
-            <button className="writeSubmit" type="submit">
+                <button className="writeSubmit" type="submit">
                 Publish
             </button>
+            </form>
+            
         </div>
     );
 }
