@@ -1,8 +1,8 @@
 import React from "react";
 /*import { Link } from "react-router-dom";*/
-import Image from "../../assets/6221846 1.png";
-import image from "../../assets/edit (1).png";
-import Img from "../../assets/delete.png";
+import Profile from "../../assets/profile.png";
+import icnEdit from "../../assets/edit.png";
+import icnDelete from "../../assets/delete.png";
 
 export default function Post() {
   return (
@@ -10,7 +10,7 @@ export default function Post() {
     <div class>
       <img
         class="w-[955px] h-[422px] top-[168px] mt-[22px] ml-[65px] mr-[39px] "
-        src={Image}
+        src={Profile}
         alt=""
     />
         <div className="flex">
@@ -19,11 +19,11 @@ export default function Post() {
             </span>
             <a>
             <img className="mr-[17.5px] mt-[32.49px] cursor-pointer" 
-            src={image}
+            src={icnEdit}
             alt=""/></a>
             <a>
             <img className="w-[25px] h-[25px] mt-[32.49px] mr-[52.5px] cursor-pointer" 
-            src={Img}
+            src={icnDelete}
             alt=""/></a>
         </div>
         <p className="text-putih text-justify h-[166px] w-[929px] ml-[78px] mr-[52px] font-playfair">
