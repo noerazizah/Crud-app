@@ -40,10 +40,6 @@ app.use("/api/users", userRoute);
 app.use("/api/posts", postRoute);
 app.use("/api/categories", categoryRoute);
 
-<<<<<<< HEAD
 app.listen("5000", () => {
     console.log("Backend is running.");
 });
-=======
-app.listen(8080, () => { console.log('Server is running on https://localhost:${5000}') });
->>>>>>> a659170c255cd6a16abf12700cc606fde771a1dc
