@@ -10,8 +10,4 @@ export default function Posts() {
             <SinglePost img="https://images.pexels.com/photos/4916559/pexels-photo-4916559.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" />
         </div>
     );
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> a659170c255cd6a16abf12700cc606fde771a1dc

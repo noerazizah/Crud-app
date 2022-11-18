@@ -17,8 +17,6 @@ code {
     monospace;
 }
 
-<<<<<<< HEAD
-=======
 .settingtitle{
     position: absolute;
     width: 201px;
@@ -586,7 +584,6 @@ code {
 }
 =======
 
->>>>>>> a659170c255cd6a16abf12700cc606fde771a1dc
 @layer components {
   .writeIcon {
   width: 25px;
