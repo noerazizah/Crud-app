@@ -8,7 +8,7 @@ import Single from "./pages/single/Single";
 import Write from "./pages/write/Write";
 import Register from "./pages/register/Register";
 import Login from "./pages/login/Login";
-import Settings from "./pages/settings/Settings";
+import Setting from "./pages/setting/PageSettings";
 import {
   BrowserRouter as Router,
   Switch,
@@ -31,7 +31,7 @@ function App() {
         <Route path="/register">{user ? <Home /> : <Register />}</Route>
         <Route path="/login">{user ? <Home /> : <Login />}</Route>
         <Route path="/write">{user ? <Write /> : <Register />}</Route>
-        <Route path="/settings">{user ? <Settings /> : <Register />}</Route>
+        <Route path="/settings">{user ? <Setting /> : <Register />}</Route>
         <Route path="/post/:postId">
           <Single />
         </Route>
