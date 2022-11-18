@@ -3,6 +3,7 @@ import axios from "axios";
 import { Context } from "../../context/Context";
 
 export default function Write() {
+<<<<<<< HEAD
     const [title, setTitle] = useState("");
     const [desc, setDesc] = useState("");
     const [file, setFile] = useState(null);
@@ -30,6 +31,35 @@ export default function Write() {
             window.location.replace("/post/" + res.data._id);
         } catch (err) { }
     };
+=======
+    // const [title, setTitle] = useState("");
+    // const [desc, setDesc] = useState("");
+    // const [file, setFile] = useState(null);
+    // const { user } = useContext(Context);
+    
+    // const handleSubmit = async (e) => {
+    //     e.preventDefault();
+    //     const newPost = {
+    //       username: user.username,
+    //       title,
+    //       desc,
+    //     };
+    //     if (file) {
+    //       const data =new FormData();
+    //       const filename = Date.now() + file.name;
+    //       data.append("name", filename);
+    //       data.append("file", file);
+    //       newPost.photo = filename;
+    //       try {
+    //         await axios.post("/upload", data);
+    //       } catch (err) {}
+    //     }
+    //     try {
+    //       const res = await axios.post("/posts", newPost);
+    //       window.location.replace("/post/" + res.data._id);
+    //     } catch (err) {}
+    //   };
+>>>>>>> a659170c255cd6a16abf12700cc606fde771a1dc
 
     return (
         <div className="pt-12">
@@ -60,9 +90,16 @@ export default function Write() {
                     />
                 </div>
                 <button className="writeSubmit" type="submit">
+<<<<<<< HEAD
                     Publish
                 </button>
             </form>
+=======
+                Publish
+            </button>
+            </form>
+            
+>>>>>>> a659170c255cd6a16abf12700cc606fde771a1dc
         </div>
     );
 }

@@ -13,7 +13,11 @@ export default function Register() {
     e.preventDefault();
     setError(false);
     try {
+<<<<<<< HEAD
       const res = await axios.post("/auth/register", {
+=======
+      const res = await axios.post("http:localhost:5000/api/auth/register", {
+>>>>>>> a659170c255cd6a16abf12700cc606fde771a1dc
         username,
         email,
         password,
@@ -32,6 +36,7 @@ export default function Register() {
            object-contain scale-75 -translate-y-6"></img></div>
           <p class="text-poppins text-judul2 text-white mt-0 pt-1 mb-2 text-center">
             Please register if you don’t have an account yet!
+<<<<<<< HEAD
           </p>
           <form action="" onSubmit={handleSubmit}>
             <div class="mb-6 space">
@@ -65,6 +70,41 @@ export default function Register() {
               </button>
             </div>
           </form>
+=======
+        </p>
+        <form action="" onSubmit={handleSubmit}>
+      <div class="mb-6 space">
+        <input
+          type="text"
+          class="form-control block w-full px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded-lg transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+          id="exampleFormControlInput2"
+          placeholder="username"
+          onChange={(e) => setUsername(e.target.value)}/>
+      </div>
+      <div class="mb-6">
+        <input
+          type="text"
+          class="form-control block w-full px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded-lg transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+          id="exampleFormControlInput2"
+          placeholder="email"
+          onChange={(e) => setEmail(e.target.value)}/>
+      </div>
+      <div class="mb-6">
+        <input
+          type="password"
+          class="form-control block w-full px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded-lg transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+          id="exampleFormControlInput2"
+          placeholder="password"
+          onChange={(e) => setPassword(e.target.value)}/>
+      </div>
+        <div class="text-center  lg:text-left">
+          <button type="submit"
+          class="inline-block px-7 py-3 bg-biru-abu text-white font-poppins text-teks1 leading-snug uppercase rounded-lg shadow-md hover:bg-kuning hover:shadow-lg focus:bg-kuning focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out hover:text-biru-abu">
+          Register
+        </button>
+        </div>
+        </form>
+>>>>>>> a659170c255cd6a16abf12700cc606fde771a1dc
           <p class="text-white font-poppins text-teks1 mt-2 pt-1 mb-0">
             Already have an account?
             <a
@@ -73,8 +113,13 @@ export default function Register() {
               Login now!
             </a>
           </p>
+<<<<<<< HEAD
         </div>
       </div>
+=======
+      </div>          
+    </div>
+>>>>>>> a659170c255cd6a16abf12700cc606fde771a1dc
     </div>
   );
 }
