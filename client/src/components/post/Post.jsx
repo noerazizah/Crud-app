@@ -9,27 +9,27 @@ export default function Post({img}) {
     <body>
     <div class>
       <img
-        class="w-[955px] h-[422px] top-[168px] mt-[22px] ml-[65px] mr-[39px] "
+        class="w-[955px] h-[422px] mb-[33.76px] mt-[22px] ml-[52px] mr-[52px] "
         src={Image}
         alt=""
     />
         <div className="flex">
-            <span class="text-putih text-[30px] font-[600] font-poppins non-italic mt-[22px] mb-[18px] ml-[78px] mr-[724px] drop-shadow-md">
+            <span class="text-putih text-[30px] font-[600] font-poppins non-italic  ml-[67.07px] mr-[724.56px] drop-shadow-md">
                 My Story
             </span>
             <a>
-            <img className="mr-[17.5px] mt-[32.49px] cursor-pointer" 
+            <img className="mr-[17.5px] cursor-pointer" 
             src={image}
             alt=""/></a>
             <a>
-            <img className="w-[25px] h-[25px] mt-[32.49px] mr-[52.5px] cursor-pointer" 
+            <img className="w-[25px] h-[25px] mr-[65.5px] cursor-pointer" 
             src={Img}
             alt=""/></a>
         </div>
-        <p className="text-putih text-justify h-[166px] w-[929px] ml-[78px] mr-[52px] font-playfair">
+        <p className="text-putih text-justify h-[166px] w-[929px] mr-[65px] ml-[65px] mt-[22.14px] font-playfair">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <div className="postInfo ml-[78px] mr-[878px] mb-[50px]"> 
+        <div className="postInfo ml-[65px] mr-[891x] mt-[10px]"> 
             <span className="text-[#939393]">1 hour ago</span>
         </div>
         
