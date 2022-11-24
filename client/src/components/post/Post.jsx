@@ -1,16 +1,21 @@
 import React from "react";
 /*import { Link } from "react-router-dom";*/
-import Image from "../../assets/6221846 1.png";
-import image from "../../assets/edit (1).png";
-import Img from "../../assets/delete.png";
+import Profile from "../../assets/profile.png";
+import icnEdit from "../../assets/edit.png";
+import icnDelete from "../../assets/delete.png";
 
-export default function Post({img}) {
+export default function Post() {
   return (
     <body>
     <div class>
       <img
+<<<<<<< HEAD
         class="w-[955px] h-[422px] mb-[33.76px] mt-[22px] ml-[52px] mr-[52px] "
         src={Image}
+=======
+        class="w-[955px] h-[422px] top-[168px] mt-[22px] ml-[65px] mr-[39px] "
+        src={Profile}
+>>>>>>> upstream/main
         alt=""
     />
         <div className="flex">
@@ -18,12 +23,21 @@ export default function Post({img}) {
                 My Story
             </span>
             <a>
+<<<<<<< HEAD
             <img className="mr-[17.5px] cursor-pointer" 
             src={image}
             alt=""/></a>
             <a>
             <img className="w-[25px] h-[25px] mr-[65.5px] cursor-pointer" 
             src={Img}
+=======
+            <img className="mr-[17.5px] mt-[32.49px] cursor-pointer" 
+            src={icnEdit}
+            alt=""/></a>
+            <a>
+            <img className="w-[25px] h-[25px] mt-[32.49px] mr-[52.5px] cursor-pointer" 
+            src={icnDelete}
+>>>>>>> upstream/main
             alt=""/></a>
         </div>
         <p className="text-putih text-justify h-[166px] w-[929px] mr-[65px] ml-[65px] mt-[22.14px] font-playfair">
