@@ -1,10 +1,4 @@
 import React from "react";
-<<<<<<< HEAD
-// import Header from "./components/header/Header";
-// import NavBar from "./components/navbar/NavBar";
-//import Post from "./components/post/Post";
-import Write from "./pages/write/Write";
-=======
 import Header from "./components/header/Header";
 import NavBar from "./components/navbar/NavBar";
 import Sidebar from "./components/sidebar/Sidebar";
@@ -21,17 +15,11 @@ import {
   Route,
   Link
 } from "react-router-dom";
->>>>>>> upstream/main
 
 
 function App() {
   const user = true;
   return (
-<<<<<<< HEAD
-    // <><NavBar /><Header /></>
-    //<Post/>
-    <Write/>
-=======
     <Router>
       <NavBar />
       <Switch>
@@ -47,7 +35,6 @@ function App() {
         </Route>
       </Switch>
     </Router>
->>>>>>> upstream/main
   );
 }
 
